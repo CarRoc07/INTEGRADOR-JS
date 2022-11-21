@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Bike´s Shop</title>
+</head>
+<body>
+
+    <div class="overlay"></div>
+    <header>
+        <div class="container-logo">
+            <img src="./imgs/logo1.png" alt="logo-bike">
+            <h3>ByBike</h3>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#filters">Shop</a></li>
+            </ul>
+        </nav>
+        <div class="container-logo-cart">
+            <a href="./page-login.html"><i class="fa-solid fa-user"></i></a>
+            <i class="fa-solid fa-bag-shopping" id="icon-cart"></i>
+            <i class="fa-solid fa-bars" id="icon-menu"></i>
+        </div>
+        <div class="cart">
+            <button class="btn-close-cart">X</button>
+            <h4>My cart</h4>
+            <div class="products-container"></div>
+            <div class="results-container">
+                <p>Total:</p>
+                <b class="totalPriceCart">$ </b>
+            </div>
+            <button class="btn-deleteAllProducts">Empty Cart</button>
+            <button class="btn-buyCart">Purchase</button>
+        </div>
+    </header>
+
+    <main class="main">
+        
+        <div class="landing">
+            <div class="landing-title">
+                <h1>By-<span>Bike shop</span>  
+                    online</h1>
+                <p>This is the largest online bicycle store in all of America, it has all the different types of possible bikes and all the necessary accessories to complement your hobby.</p>
+                <a href="#filters"><button>BUY NOW</button></a>
+            </div>
+            <img src="./imgs/landing.png" alt="bike-img">
+        </div>
+        <div class="about" id="about">
+            <img src="./imgs/about1.jpg" alt="bike-people">
+            <div class="about-info">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eaque laborum dignissimos eos omnis, quod aliquam natus expedita dolorem ducimus neque maiores obcaecati alias quis magni maxime porro vitae nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis a officiis enim possimus, ducimus itaque repudiandae totam odio maiores unde repellendus. In eum debitis esse nulla necessitatibus officia incidunt accusantium.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dolorum quisquam ad illum veritatis voluptatibus nesciunt reiciendis praesentium ipsam odit accusamus minus, id ipsum odio doloremque, numquam quasi ducimus laudantium.</p>
+            </div>
+        </div>
+        <div class="filters" id="filters">
+            <h2>- - Shop - -</h2>
+            <div class="filter-category-container">
+                <div class="filter-category">
+                    <img src="./imgs/bmx.png" alt="img-category">
+                    <h4>BMX</h4>
+                    <div class="case" id="0"></div>
+                </div>
+                <div class="filter-category">
+                    <img src="./imgs/mountainLogo.webp" alt="img-category">
+                    <h4>Mountain</h4>
+                    <div class="case" id="2"></div>
+                </div>
+                <div class="filter-category">
+                    <img src="./imgs/road.png" alt="img-category">
+                    <h4>Road</h4>
+                    <div class="case" id="3"></div>
+                </div>
+                <div class="filter-category">
+                    <img src="./imgs/kids.webp" alt="img-category">
+                    <h4>Kids</h4>
+                    <div class="case" id="1"></div>
+                </div>
+                <div class="filter-category">
+                    <img src="./imgs/casco2.png" alt="img-category">
+                    <h4>Security</h4>
+                    <div class="case" id="5"></div>
+                </div>
+                <div class="filter-category">
+                    <img src="./imgs/luces.png" alt="img-category">
+                    <h4>Lights</h4>
+                    <div class="case" id="4"></div>
+                </div>
+            </div>
+            <h3>Bikes BMX</h3>
+        </div>
+        <div class="filtered-results">
+            <!-- <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item-container">
+                <img src="./imgs/Road/road.jpg" alt="BMX 1">
+                <h5>BMX solin</h5>
+                <h6>$ 215</h6>
+                <button>Add to Cart</button>
+            </div> -->
+        </div>
+        <footer class="footer">
+            <h5>By-Bike <span>all rights reserved</span></h5>
+            <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>

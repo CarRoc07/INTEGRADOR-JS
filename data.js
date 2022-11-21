@@ -1,0 +1,62 @@
+const products = [
+    [
+        {name: "BMX-1", price: 400, img: "./imgs/BMX´s/BMX1.jpg"},
+        {name: "BMX-2", price: 300, img: "./imgs/BMX´s/BMX2.jpg"},
+        {name: "BMX-3", price: 230, img: "./imgs/BMX´s/BMX3.jpg"},
+        {name: "BMX-4", price: 440, img: "./imgs/BMX´s/BMX4.jpg"},
+        {name: "BMX-5", price: 500, img: "./imgs/BMX´s/BMX5.jpg"},
+        {name: "BMX-6", price: 500, img: "./imgs/BMX´s/BMX6.jpg"},
+    ],
+    [
+        {name: "ForKids-1", price: 400, img: "./imgs/Kids/kids.jpg"},
+        {name: "ForKids-2", price: 300, img: "./imgs/Kids/kids1.avif"},
+        {name: "ForKids-3", price: 230, img: "./imgs/Kids/kids2.jpg"},
+        {name: "ForKids-4", price: 440, img: "./imgs/Kids/kids3.jpg"},
+        {name: "ForKids-5", price: 500, img: "./imgs/Kids/kids4.webp"},
+        {name: "ForKids-6", price: 500, img: "./imgs/Kids/kids5.webp"},
+        {name: "ForKids-7", price: 500, img: "./imgs/Kids/kids6.webp"},
+    ],
+    [
+        {name: "Mountain-1", price: 400, img: "./imgs/Mountain/mountain.webp" },
+        {name: "Mountain-2", price: 300, img: "./imgs/Mountain/mountain1.jpg" },
+        {name: "Mountain-3", price: 230, img: "./imgs/Mountain/mountain2.jpg" },
+        {name: "Mountain-4", price: 440, img: "./imgs/Mountain/mountain3.jpg" },
+        {name: "Mountain-5", price: 500, img: "./imgs/Mountain/mountain4.jpg" },
+        {name: "Mountain-6", price: 500, img: "./imgs/Mountain/mountain5.jpg" },
+        {name: "Mountain-7", price: 500, img: "./imgs/Mountain/mountain6.jpg" },
+        {name: "Mountain-8", price: 500, img: "./imgs/Mountain/mountain7.webp" },
+        {name: "Mountain-9", price: 500, img: "./imgs/Mountain/mountain8.jpg" }
+    ],
+    [
+        {name: "Road-1", price: 400, img: "./imgs/Road/road.jpg" },
+        {name: "Road-2", price: 300, img: "./imgs/Road/road1.jpg" },
+        {name: "Road-3", price: 230, img: "./imgs/Road/road2.jpg" },
+        {name: "Road-4", price: 440, img: "./imgs/Road/road3.jpg" },
+        {name: "Road-5", price: 500, img: "./imgs/Road/road4.jpg" },
+        {name: "Road-6", price: 500, img: "./imgs/Road/road5.jpg" },
+        {name: "Road-7", price: 500, img: "./imgs/Road/road6.jpg" },
+        {name: "Road-8", price: 500, img: "./imgs/Road/road7.jpg" },
+        {name: "Road-9", price: 500, img: "./imgs/Road/road8.jpg" },
+    ],
+    [
+        {name: "Light´s-1", price: 400, img: "./imgs/Luces/lights.jpg"},
+        {name: "Light´s-2", price: 300, img: "./imgs/Luces/ligths1.webp"},
+        {name: "Light´s-3", price: 230, img: "./imgs/Luces/ligths2.webp"},
+        {name: "Light´s-4", price: 440, img: "./imgs/Luces/ligths3.jpg"},
+        {name: "Light´s-5", price: 500, img: "./imgs/Luces/ligths4.webp"},
+        {name: "Light´s-6", price: 500, img: "./imgs/Luces/ligths5.jpg"},
+        {name: "Light´s-7", price: 500, img: "./imgs/Luces/ligths6.jpg"},
+    ],
+    [
+        {name: "Helmet-1", price: 400, img: "./imgs/Cascos/casco.webp" },
+        {name: "Helmet-2", price: 300, img: "./imgs/Cascos/casco1.jpg" },
+        {name: "Helmet-3", price: 230, img: "./imgs/Cascos/casco2.jpg" },
+        {name: "Helmet-4", price: 440, img: "./imgs/Cascos/casco3.jpg" },
+        {name: "Helmet-5", price: 500, img: "./imgs/Cascos/casco4.jpg" },
+        {name: "Helmet-6", price: 500, img: "./imgs/Cascos/casco5.jpg" },
+        {name: "Helmet-7", price: 500, img: "./imgs/Cascos/casco6.jpg" },
+        {name: "Helmet-8", price: 500, img: "./imgs/Cascos/casco7.jpg" },
+        {name: "Helmet-9", price: 500, img: "./imgs/Cascos/casco8.jpg" },
+        {name: "Helmet-10", price: 500, img: "./imgs/Cascos/casco9.jpg" }
+    ]
+]
