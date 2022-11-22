@@ -456,6 +456,12 @@ header nav ul {
     background-color: #f83b3b;
 }
 
+@media screen and (max-width: 768px) {
+    .item-container button {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .filtered-results {
         width: 250px;
@@ -667,9 +673,10 @@ header nav ul {
     }
     .products-container {
         gap: 10px;
+        width: 100%;
     }
     .product {
-        gap: 10px;
+        gap: 13px;
         padding: 8px;
     }
     .product img {
@@ -681,5 +688,8 @@ header nav ul {
     }
     .product h5 {
         font-size: 18px;
+    }
+    .results-container {
+        width: 100%;
     }
 }

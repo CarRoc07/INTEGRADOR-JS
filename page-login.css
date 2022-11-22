@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Ubuntu:wght@300;400;500&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -14,9 +13,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(0deg, rgba(27,70,108,1) 0%, rgba(36,123,160,1) 100%);
-
-
+    background: linear-gradient(0deg, rgba(248,116,116,1) 0%, rgba(214,40,40,1) 100%);
 }
 
 .login-container {
@@ -56,17 +53,42 @@ body {
     gap: 10px;
 }
 
+.form-login a {
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 22px;
+}
+
 .button-submit {
-    width: 78%;
+    width: 100%;
     font-weight: 700;
-    background-color: #247ba0;
+    background: linear-gradient(158deg, rgba(248,116,116,1) 0%, rgba(214,40,40,1) 100%);
     cursor: pointer;
     color: aliceblue;
     border: 2px solid aliceblue;
-    transition: background-color ease .5s;
 }
 
 .button-submit:hover {
-    transition: background-color ease .5s;
-    background-color: #1b466c;
+    background: rgba(214,40,40,1);
+}
+
+@media screen and (max-width: 570px) {
+    .login-container {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-container {
+        width: 300px;
+        padding: 20px;
+    }
+    .login-container input {
+        font-size: 21px;
+        padding: 7px;
+    }
+    .login-container label {
+        font-size: 25px;
+    }
+
 }
